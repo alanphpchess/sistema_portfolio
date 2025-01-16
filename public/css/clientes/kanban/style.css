@@ -1,0 +1,49 @@
+.kanban-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0px;
+}
+
+.kanban {
+  display: inline-flex;
+}
+
+.task {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.column {
+  width: 350px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  max-height: 600px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.column-title {
+  position: sticky;
+  top: 0;
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  z-index: 1;
+}
+
+.tasks {
+  min-height: 200px;
+  margin-bottom: 10px;
+}
+
+.tasks.drag-over {
+  border: 2px dashed #007BFF;
+}

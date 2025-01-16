@@ -1,0 +1,10 @@
+.container_ma{
+    padding: 30px;
+    height: 100%;
+}
+
+.close-animatedModal{
+    display: flex;
+    justify-content: end;
+    background: transparent;
+}

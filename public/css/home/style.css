@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: 'n-bold';
+    src: url('/fonts/nunito/NunitoSans-ExtraBold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'g-book';
+    src: url('/fonts/gotham/Gotham-Book.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'g-bold';
+    src: url('/fonts/gotham/Gotham-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'g-medium';
+    src: url('/fonts/gotham/Gotham-Medium.otf') format('truetype');
+}
+
+.bx-pager-link{
+    display: none !important;
+}
+
+
+:root{
+    --cor-amarela: #FFCB05;
+    --cor-amarela2: #ba9e30;
+    --cor-branca: #ffffff;
+    --cor-preta: #231F20;
+    --cor-preta2: #414042;
+    --altura-mg: 50px;
+    --altura-g: 30px;
+    --altura-m: 20px;
+    --altura-p: 10px;
+    --f-size-g: 1.5rem;
+    --f-size-m: 1rem;
+    --f-size-p: 0.8rem;
+}
+
+
+.text-home{
+    font-size: 18px !important;
+}
+
+#icon-whatsapp {
+    fill: #2fa75b;
+}
+
+#icon-facebook {
+    fill: #1146a2;
+}
+#icon-instagram {
+    fill: #7b4582;
+
+}
+#icon-youtube {
+    fill: #4a1226;
+
+}
+#icon-linkedin {
+    fill: #5a81c4;
+
+}

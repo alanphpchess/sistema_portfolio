@@ -1,0 +1,11 @@
+.sortable-ghost {
+    opacity: 0.4;
+}
+
+.sortable-chosen {
+    background-color: #f0f0f0;
+}
+
+.sortable-drag {
+    border: 1px dashed #000;
+}

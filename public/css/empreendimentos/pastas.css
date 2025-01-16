@@ -1,0 +1,29 @@
+.listas_pastas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 5%));
+    grid-column-gap: 10px;
+}
+
+.listas_pastas img {
+    max-width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.pastas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pasta_descricao {
+    text-align: center;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.pasta_descricao a {
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,0 +1,112 @@
+footer{
+    background-color: var(--cor-preta2);
+    display: grid;
+    grid-template-columns: 50% 25%;
+    justify-content: center;
+    padding-top: var(--altura-mg);
+    padding-bottom: var(--altura-mg);
+    column-gap: 3%;
+    color: var(--cor-branca);
+}
+
+.text-footer{
+    width: 80%;
+    margin-top: var(--altura-m);
+    margin-bottom: var(--altura-m);
+    font-size: 1.2rem;
+}
+
+.footer svg{
+    font-size: 40px;
+
+}
+
+.contato-whatsapp{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--altura-p);
+    font-size: 1.2rem;
+}
+
+.contato-email{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--altura-p);
+    font-size: 1.2rem;
+}
+
+.footer-endereco svg {
+    margin-right: 3px;
+    font-size: 2rem;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-network{
+    display: flex;
+}
+
+.footer-form input, .footer-form textarea{
+    height: 35px;
+    background-color: #808285;
+    border: 0;
+    margin-bottom: var(--altura-p);
+    padding: 10px;
+}
+
+.footer-form textarea{
+    height: 80px;
+}
+
+.footer-form input::placeholder, .footer-form textarea::placeholder{
+    color: var(--cor-preta);
+    padding: 10px;
+}
+
+.title-form-contato{
+     color: var(--cor-amarela);
+     font-size: var(--f-size-m);
+     font-family: 'g-bold';
+     margin-bottom: var(--altura-p);
+     font-size: 1.5rem;
+}
+
+.footer-form button{
+    height: 30px;
+    background: #FFCB05;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 0;
+}
+
+.subtitule-form-contato{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+    footer {
+        background-color: var(--cor-preta2);
+        display: grid;
+        grid-template-columns: 90%;
+        justify-content: center;
+        padding-top: var(--altura-mg);
+        padding-bottom: var(--altura-mg);
+        column-gap: 3%;
+        color: var(--cor-branca);
+    }
+
+    .footer-form{
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .footer-endereco{
+        order: 2;
+    }
+
+
+}

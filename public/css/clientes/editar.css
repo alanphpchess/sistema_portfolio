@@ -1,0 +1,103 @@
+/* titulo do formulário */
+.form_edit_cli p:first-of-type{
+    font-weight: bold;
+    color: rgb(39, 29, 65);
+}
+
+.form_edit_cli p{
+    /* margin-bottom: 50px; */
+}
+
+.form_edit_campos p:nth-of-type(2){
+    margin-bottom: 50px;
+}
+
+
+
+/*/// TIMELINE */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+ul.timeline > li:first-child:before {
+
+
+    border: 3px solid #1c6f00;
+    background: #1c6f00;
+
+
+}
+
+.titulo{
+    margin-bottom: 40px;
+}
+
+.btns_accordion_edit{
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+.data_status_evolucao {
+    font-size: 0.8rem;
+}
+
+.titulo_status_evolucao {
+    color: rgb(33, 37, 41);
+    font-weight: bold;
+}
+
+
+.badge_tag{
+   padding: 2px 5px;
+   border-radius: 5px;
+   color: white;
+   margin-right: 10px;
+   margin-bottom: 5px;
+   border: 0;
+}
+
+.card_edit_alerta{
+    color: white;
+    font-weight: bold;
+}
+
+
+.icon_edit_cliente{
+    float: right;
+}
+
+.excluir_tag{
+    text-decoration: none;
+    color: white;
+}

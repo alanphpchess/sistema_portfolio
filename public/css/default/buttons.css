@@ -1,0 +1,38 @@
+.btn-voltar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.btn-w-100 {
+    width: 100%;
+}
+
+.text-danger_2 {
+    color: rgb(132, 6, 6);
+}
+
+.text-success_2 {
+    color: rgb(9, 124, 7);
+}
+
+
+/* Estilizando a barra de rolagem no Chrome, Safari e Edge */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #635e5e;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #635e5e;
+}
+
+/* Estilizando a barra de rolagem no Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #635e5e #f1f1f1;
+}

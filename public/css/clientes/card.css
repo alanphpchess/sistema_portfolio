@@ -1,0 +1,15 @@
+.card_cliente{
+    display: flex;
+    column-gap: 20px;
+}
+
+.card_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-md-2{
+  padding-right: 0px !important;
+}

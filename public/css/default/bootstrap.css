@@ -1,0 +1,11 @@
+.modal-content {
+    height: auto !important;
+}
+
+.modal-dialog {
+    max-height: calc(100vh - 120px); /* Defina a altura máxima do modal */
+}
+
+.modal-body {
+    overflow-y: auto; /* Adicione rolagem vertical ao conteúdo do modal */
+}

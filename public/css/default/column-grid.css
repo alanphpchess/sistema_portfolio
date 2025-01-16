@@ -1,0 +1,21 @@
+.btn-grid-column{
+    float: right;
+    background-color: #1d89ff;
+}
+
+.checkbox-datatable {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label {
+    margin-left: 5px;
+}
+
+.text-success_2 {
+    color: green;
+}
+
+.text-danger_2 {
+    color: red;
+}

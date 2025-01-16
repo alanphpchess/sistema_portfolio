@@ -1,0 +1,6 @@
+.select_modal .ts-dropdown{
+    /* Para resolver problema referente ao modal */
+    position: relative !important; 
+}
+
+

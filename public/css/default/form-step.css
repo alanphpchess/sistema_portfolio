@@ -1,0 +1,77 @@
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #252b3b;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+  }
+  
+  
+  /* Start Here */
+
+  .box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  .box .form-container {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 3px;
+  }
+  
+  .box .steps {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 1rem 0;
+    border-bottom: 1px solid #cfd2d4;
+  }
+  
+  .box .steps p {
+    background: #cfd2d4;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 1.7rem;
+  }
+  
+  .box form {
+    overflow: hidden;
+  }
+  
+  .box .form-item {
+    /* margin: 1.5rem 0; */
+    display: none;
+    animation: slide-in 0.5s ease;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(50rem);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .box .form-item input {
+    /* margin-bottom: 1rem;
+    padding: 8px;
+    font-size: 1.4rem; */
+  }
+  
+  .box .btn-step {
+    /* margin-right: 1rem; */
+  }
+  

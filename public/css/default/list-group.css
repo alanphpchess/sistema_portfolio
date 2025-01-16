@@ -1,0 +1,26 @@
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    box-shadow: -4px 0px 15px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+
+
+
+.div_card {
+    top: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.title_card {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
